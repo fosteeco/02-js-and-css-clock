@@ -22,7 +22,7 @@ const interval = setInterval(() => {
   let h = addZero(d.getHours());
   spinArm(60, secHand, s);
   spinArm(60, minHand, m);
-  spinArm(24, hourHand, h);
+  spinArm(12, hourHand, h);
   let time = h + ":" + m + ":" + s;
   console.log("time :", time);
 }, 1000);
